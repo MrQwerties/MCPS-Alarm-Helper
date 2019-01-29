@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">MCPS Alarm Helper</string>
+    <string name="title_text">MCPS Alarm Helper</string>
+    <string name="on_text">ON</string>
+    <string name="off_text">OFF</string>
+    <string name="alarm_time_text">Set alarm time</string>
+    <string name="info_text">Info</string>
+    <string name="credits_text">Credits</string>
+    <string name="preference_file_key" translatable="false">vinvinb.mcpsalarmhelper.PREFERENCE_FILE_KEY</string>
+    <string name="on_off_key" translatable="false">vinvinb.mcpsalarmhelper.ON_KEY</string>
+    <bool name="on_off_default_key">true</bool>
+    <string name="title_activity_info">Info</string>
+    <string name="app_info">
+        "Note: This app is currently only meant for students of Montgomery County Public Schools, in Maryland. Support for other districts may be added in the future.\n"
+
+        "This app is meant to silence your phone alarm when schools in MCPS are closed or delayed, to prevent you from unnecessarily waking up.\n"
+
+        "To use it, just set the time that your alarm usually goes off, and press the big green ON button (and turn it off during non-snowy seasons, to save battery life).\n"
+
+        "Reminder: make sure that your phone is connected to the internet and that it isn&apos;t shut down, if you want this app to work."
+    </string>
+    <string name="app_info_html">
+        "&lt;i&gt;Note: This app is currently only meant for students of Montgomery County Public Schools, in Maryland. Support for other districts may be added in the future.&lt;/i&gt;&lt;br&gt;"
+
+        "This app is meant to silence your phone alarm when schools in MCPS are closed or delayed, to prevent you from unnecessarily waking up.&lt;br&gt;"
+
+        "To use it, just set the time that your alarm usually goes off, and press the big green &lt;font color=&quot;green&quot;&gt;ON&lt;/font&gt; button (and turn it off during non-snowy seasons, to save battery life).&lt;br&gt;"
+
+        "Reminder: make sure that your phone is connected to the internet and that it isn&apos;t shut down, if you want this app to work."
+    </string>
+    <string name="credits_content">
+        "This app was designed and programmed by Vincent Bian of Poolesville High School in Mr. Hill's programming Android apps class.\n"
+
+        "If you need to contact him, you can reach Vincent at vincentbian36@gmail.com."
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_credits">Credits</string>
+    <string name="back_text">Back</string>
+    <string name="title_activity_set_time">Set Alarm Time</string>
+    <string name="closed_title_regex" translatable="false">(.*(Update|UPDATE|update).*:.*)?(MCPS|Montgomery County Public) Schools.*Clos(ed|ing)</string>
+    <string name="closed_content_regex" translatable="false">(MCPS|[Mm]ontgomery [Cc]ounty [Pp]ublic) [Ss]chools.*clos(ed|ing)</string>
+    <string name="delayed_title_regex" translatable="false">(.*(Update|UPDATE|update).*:.*)?(MCPS|Montgomery County Public) Schools .*(Open|OPEN)(ing)?.*Two(-| )Hours? (Late|Delay)</string>
+    <string name="delayed_content_regex" translatable="false">[Mm]ontgomery [Cc]ounty [Pp]ublic [Ss]chools.*open(ing)? two hours late</string>
+    <string name="permission_title">Permissions stuff</string>
+    <string name="permissions_button_text">Go to settings</string>
+    <string name="permissions_text">If school is closed, this app will silence your phone by turning on do not disturb mode. You\'ll need to explicitly grant permission for the app to do this in the settings. Please click the button below to go the settings page, and give this app permission. Thank you!</string>
+    <string name="error_key">vinvinb.mcpsalarmhelper.ERROR_KEY</string>
+</resources>
